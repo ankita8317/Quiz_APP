@@ -22,8 +22,8 @@ import androidx.compose.ui.unit.sp
 import com.example.quiz.data.Topic
 import androidx.activity.compose.BackHandler
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.foundation.Canvas
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 
 @Composable
 fun QuizScreen(
@@ -80,7 +80,7 @@ fun QuizScreen(
             title = {},
             navigationIcon = {
                 IconButton(onClick = { onBackToTopicSelection() }) {
-                    Icon(Icons.Filled.ArrowBack, contentDescription = "Back", tint = Color.White)
+                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = Color.White)
                 }
             },
             colors = TopAppBarDefaults.topAppBarColors(

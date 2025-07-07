@@ -21,21 +21,15 @@ A modern, feature-rich quiz application built with Jetpack Compose for Android.
 - **10 Questions per Quiz** - Perfect length for quick learning
 - **Multiple Choice Questions** - Easy to answer format
 - **Real-time Scoring** - See your score as you progress
-- **Progress Tracking** - Visual progress bar
-- **Time Tracking** - Monitor your quiz completion time
-- **Random Questions** - Different questions each time
 
 ### 📊 **Results & Analytics**
 - **Score Percentage** - See your performance at a glance
 - **Performance Messages** - Encouraging feedback based on score
-- **Time Analysis** - Track how long you took
-- **Previous Results** - View your quiz history
 - **Category Performance** - Track performance by category
 
 ### 🎨 **Visual Feedback**
 - **Color-coded Answers** - Green for correct, red for incorrect
 - **Progress Indicators** - Visual progress through questions
-- **Score Icons** - Trophy, medals, and encouraging emojis
 - **Gradient Backgrounds** - Beautiful visual design
 
 ## 🛠️ Technical Stack
@@ -73,7 +67,7 @@ app/src/main/java/com/example/quiz/
 ## 🎮 How to Play
 
 1. **Start Quiz** - Tap "Start Quiz" on the home screen
-2. **Choose Category** - Select from 5 different quiz categories
+2. **Choose Category** - Select from 4 different quiz categories
 3. **Answer Questions** - Read questions and select your answer
 4. **Submit & Continue** - Submit your answer and move to the next question
 5. **View Results** - See your score, time, and performance analysis
@@ -120,17 +114,6 @@ app/src/main/java/com/example/quiz/
 ```bash
 ./gradlew assembleDebug
 ```
-
-## 📱 Screenshots
-
-The app features four main screens:
-
-1. **Home Screen** - Welcome with app features
-2. **Category Screen** - Grid of quiz categories
-3. **Quiz Screen** - Question interface with progress
-4. **Results Screen** - Score analysis and statistics
-
-## 🔧 Customization
 
 ### Adding New Questions
 Edit `QuizData.kt` to add new questions:

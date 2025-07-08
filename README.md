@@ -8,7 +8,6 @@ A modern, feature-rich quiz application built with Jetpack Compose for Android.
 - Beautiful Material 3 design with dynamic colors
 - Smooth animations and transitions
 - Responsive layout for different screen sizes
-- Dark/Light theme support
 
 ### 🎯 **Quiz Categories**
 - **General Knowledge** - Test your general knowledge
